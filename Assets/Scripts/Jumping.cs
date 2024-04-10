@@ -18,6 +18,6 @@ public class Jumping : MonoBehaviour
 
     private void JumpingUpdate()
     {
-
+        //This is how it works, it's perfect.
     }
 }
