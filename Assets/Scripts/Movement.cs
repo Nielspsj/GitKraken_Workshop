@@ -13,6 +13,11 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MovementUpdates();
+    }
+
+    private void MovementUpdates()
+    {
+        //Here the movement happens using axis
     }
 }
