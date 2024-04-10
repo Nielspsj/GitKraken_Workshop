@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Jumping : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,13 +13,11 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MovementUpdates();
+        JumpingUpdate();
     }
 
-    private void MovementUpdates()
+    private void JumpingUpdate()
     {
-        //Here the movement happens using axis
+
     }
-
-
 }
